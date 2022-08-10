@@ -1,0 +1,15 @@
+spring:
+  data:
+    cassandra:
+      username: cassandra
+      password: cassandra
+      schema-action: CREATE_IF_NOT_EXISTS
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+      keyspace-name: logs_space
+      local-datacenter: datacenter1
+load-balancing-policy:
+  local-datacenter: datacenter1
