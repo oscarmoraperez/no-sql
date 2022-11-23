@@ -1,6 +1,6 @@
-# Java Mentoring Program: No SQL
+# No SQL
 
-This maven-based project contains the exercises defined in the 'No SQL' module of Java Mentoring program.
+This maven-based project contains a demo project of different (micro) services working over no-sql data repositories: Cassandra/MongoDB. 
 
 There are 2 modules in this maven project with the exercises related to MongoDB and Cassandra
 
